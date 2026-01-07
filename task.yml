@@ -11,9 +11,9 @@
        src: target
        dest: /home/admin-user
     - name : Build image
-      command: docker build -t ramarao388/devopswithaws6pmbatch .
+      command: docker build -t vishishta02/simpleweb .
     - name : Push Docker Image
-      command: docker push ramarao388/devopswithaws6pmbatch
+      command: docker push vishishta02/simpleweb
 - name: Deployment into Kubernetes Cluster
   hosts: eks
   tasks:

@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: shopping-app-container
-          image: ramarao388/devopswithaws6pmbatch
+          image: vishishta02/simpleweb
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
